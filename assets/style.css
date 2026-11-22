@@ -113,3 +113,30 @@ ul.plain li { margin-bottom: 6px; }
 .btn:hover { text-decoration: none; opacity: .9; }
 
 footer { border-top: 1px solid var(--border); padding: 24px 0 40px; color: var(--muted); font-size: 14px; }
+
+/* ---- theme ---- */
+body { font-family: "Tajawal", "Segoe UI", Tahoma, sans-serif; font-size: 18px; line-height: 1.9; }
+html[lang="en"] body { font-family: "IBM Plex Sans", "Segoe UI", sans-serif; }
+.hero-band { background: var(--hero); color: var(--hero-fg); border-radius: 16px; padding: 28px 28px; margin-top: 24px; }
+.hero-band .hero { padding: 0; }
+.hero-band .role { color: var(--hero-fg); opacity: .85; }
+.hero-band .tag { color: var(--gold); }
+.hero-band .ids a { background: transparent; color: var(--hero-fg); border-color: color-mix(in srgb, var(--hero-fg) 35%, transparent); }
+.photo { border: 3px solid var(--gold); }
+.stats { margin-top: 20px; }
+.stat b { color: var(--accent); }
+
+:root { --bg:#f4f6f5; --surface:#fff; --text:#1f2a26; --muted:#6b7a74; --accent:#0b6b4f; --accent-soft:#e7f3ee; --border:#e3e8e6; --hero:#0f2a22; --hero-fg:#e6f1ec; --gold:#cfe3db; }
+
+/* ---- contrast boost (user feedback 22-11-2026) ---- */
+:root { --text:#141c19; --muted:#45524c; --border:#d9e0dd; }
+body { font-weight: 500; color: var(--text); }
+b, strong, h1, h2, h3, .brand { font-weight: 800; }
+nav.main a { color: #3b4843; font-weight: 500; }
+.hero-band .role { opacity: 1; color: #f2f8f5; }
+.hero-band .tag { color: #9fe0c2; font-weight: 700; }
+.hero-band .ids a { color: #fff; border-color: rgba(255,255,255,.55); font-weight: 600; }
+.stat span, .note { color: var(--muted); font-weight: 500; }
+.chips li { background: #dbeee5; color: #0d3b2d; font-weight: 600; }
+ol.pubs li { color: var(--text); }
+a { color: #075a42; font-weight: 600; }
