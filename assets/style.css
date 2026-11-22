@@ -101,4 +101,15 @@ ul.plain { padding-inline-start: 20px; margin: 0; }
 ul.plain li { margin-bottom: 6px; }
 .note { color: var(--muted); font-size: 14px; }
 
+/* videos */
+.vgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 16px 0; }
+@media (max-width: 760px) { .vgrid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .vgrid { grid-template-columns: 1fr; } }
+.vcard { display: block; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; color: var(--text); }
+.vcard:hover { text-decoration: none; border-color: var(--accent); }
+.vcard img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+.vcard span { display: block; padding: 10px 12px; font-size: 15px; line-height: 1.6; }
+.btn { display: inline-block; background: var(--accent); color: #fff; border-radius: 8px; padding: 6px 16px; }
+.btn:hover { text-decoration: none; opacity: .9; }
+
 footer { border-top: 1px solid var(--border); padding: 24px 0 40px; color: var(--muted); font-size: 14px; }
