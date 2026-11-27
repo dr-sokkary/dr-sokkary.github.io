@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude-code-remote__send_message"
+    ],
+    "deny": [
+      "mcp__claude-code-remote__set_session_title",
+      "mcp__claude-code-remote__set_session_tags",
+      "mcp__claude-code-remote__interrupt_session",
+      "mcp__claude-code-remote__archive_session",
+      "mcp__claude-code-remote__unarchive_session",
+      "mcp__claude-code-remote__create_session",
+      "mcp__claude-code-remote__request_computer_folder",
+      "mcp__claude-code-remote__create_trigger",
+      "mcp__claude-code-remote__update_trigger",
+      "mcp__claude-code-remote__delete_trigger",
+      "mcp__claude-code-remote__fire_trigger",
+      "mcp__claude-code-remote__send_later",
+      "mcp__claude-code-remote__update_environment",
+      "mcp__claude-code-remote__create_environment",
+      "mcp__claude-code-remote__switch_environment",
+      "mcp__Gmail",
+      "mcp__Microsoft_365",
+      "Edit(.claude/settings.json)",
+      "Write(.claude/settings.json)",
+      "Bash(git push:*)"
+    ]
+  }
+}
